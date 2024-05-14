@@ -20,9 +20,10 @@ export default function Header() {
 <hr></hr>
 <section className="w-full h-[80vh] flex items-center bg-[url('/bg-1.jpg')] bg-cover">
  <div>
-   <h1 className="flex text-[6vw] text-white xl:drop-shadow-[0_1.2px_1.2px_rgba(46,247,15,0.8)]">With <span className="text-green-500">&#160;Herblet,</span></h1>
-   <h1 className="flex text-[6vw] text-white xl:drop-shadow-[0_1.2px_1.2px_rgba(46,247,15,0.8)]">Supplement Your Life!</h1>
-
+   <h1 className="flex text-[12vh] text-white xl:drop-shadow-[0_1.2px_1.2px_rgba(46,247,15,0.8)]">With <span className="text-green-500">&#160;Herblet,</span></h1>
+   <h1 className="flex text-[12vh] text-white xl:drop-shadow-[0_1.2px_1.2px_rgba(46,247,15,0.8)]">Supplement Your Life!</h1>
+   <img src="/clout.png" className="absolute right-[5vw] top-[28vh] w-[25vw]"></img>
+  <img src="/pills.png" className="absolute right-[5vw] top-[33vh] w-[25vw]"></img>
  </div>
 
 </section>
