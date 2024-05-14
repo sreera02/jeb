@@ -9,7 +9,7 @@ export default function Header() {
  <div className="inline-flex bg-green-300 rounded-lg bg-blur p-8">
    <span className="hover:bg-green-200 rounded-lg bg-blur-xl"><a href="#" className="xl:text-xl"><b><em>Herblet</em></b></a><img src='/leaf.png' className="object-contain flex-wrap ml-20 -my-8"></img></span>
  </div>
- <nav className="mx-0 my-8">
+ <nav className="mx-0 my-8 max-md:hidden">
    <a className="mx-10 hover:border-b-4 border-black" href="">Home</a>
    <a className="mx-10 hover:border-b-4 border-black" href="">About</a>
    <a className="mx-10 hover:border-b-4 border-black" href="">Products</a>
@@ -19,14 +19,26 @@ export default function Header() {
 </header>
 <hr></hr>
 <section className="w-full h-[80vh] flex items-center bg-[url('/bg-1.jpg')] bg-cover">
- <div>
-   <h1 className="flex text-[12vh] text-white xl:drop-shadow-[0_1.2px_1.2px_rgba(46,247,15,0.8)]">With <span className="text-green-500">&#160;Herblet,</span></h1>
-   <h1 className="flex text-[12vh] text-white xl:drop-shadow-[0_1.2px_1.2px_rgba(46,247,15,0.8)]">Supplement Your Life!</h1>
-   <img src="/clout.png" className="absolute right-[5vw] top-[28vh] w-[25vw]"></img>
-  <img src="/pills.png" className="absolute right-[5vw] top-[33vh] w-[25vw]"></img>
+ <div className="flex-wrap">
+   <h1 className="flex leading-[12vh] text-[12vh] text-white ">With <span className="text-green-500">&#160;Herblet,</span></h1>
+   <h1 className="flex leading-[12vh] text-[12vh] text-white mb-[15vh]">Supplement Your Life!</h1>
+  <div className="inline-flex items-center">
+    <button className="flex bg-green-300 rounded-2xl px-6 p-2 ml-[4vw]"><b>Sign Up</b></button>
+    <button className="flex bg-green-300 rounded-2xl px-6 p-2 ml-[2vw]"><b>Learn More</b></button>
+  </div>
  </div>
+ </section>
+ <section>
+  <h1>lol</h1>
+  <h1>lol</h1>
+  <h1>lol</h1>
+  <h1>lol</h1>
+  <h1>lol</h1>
+  <h1>lol</h1>
+  <h1>lol</h1><h1>lol</h1>
+  <h1>lol</h1>
 
-</section>
+ </section>
 </div>
   );
 }
